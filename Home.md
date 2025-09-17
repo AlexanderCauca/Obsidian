@@ -36,7 +36,7 @@ class button-monthly-note
 > - ### **Проэкты** #mcl/list-card
 > 	- ![[Soren Miles Loyola.jpg]]
 > 	- [[MainObsidian/0002 Project/Projects|Projects]]
-> 	- [[Personal Projects|Personal]]
+> 	- [[0001|Personal]]
 > 	- [[Journal MOC|Journal]]
 > - ### **Учеба**
 > 	- ![[Wyatt Nero Vergara.jpg]]
