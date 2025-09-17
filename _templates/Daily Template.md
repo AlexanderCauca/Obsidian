@@ -1,8 +1,8 @@
 ---
 type: daily
-date: 2025-09-18
-week: 2025-38
-month: 2025-09
+date: <%tp.date.now("YYYY-MM-DD")%>
+week: <% tp.date.now("YYYY-WW") %>
+month: <% tp.date.now("YYYY-MM") %>
 cssclasses:
   - wide-page
   - minimal-float
@@ -15,11 +15,11 @@ evening_mood:
 evening_energy:
 health:
 ---
-## 2025-09-18
+## <% tp.file.title %>
 
-<< [[2025-09-17]] | [[2025-09-19]]>>
+<< [[<% tp.date.now("YYYY-MM-DD", -1, tp.file.title, "YYYY-MM-DD") %>]] | [[<% tp.date.now("YYYY-MM-DD", 1, tp.file.title, "YYYY-MM-DD") %>]]>>
 
-**[[2025-09-18]]**
+**[[<% tp.date.now("YYYY-MM-DD", 0, tp.file.title, "YYYY-MM-DD") %>]]**
 
 ---
 
@@ -47,9 +47,9 @@ health:
 > > 
 >
 > > [!Todo]+ Todo
-> > - [[training/2025-09-18  Тренировка]]
-> > - [[learning/2025-09-18 Обучение]]
-> > - [[0000/2025-09-18 заметка]]
+> > - [[training/<%tp.date.now("YYYY-MM-DD")%>  Тренировка]]
+> > - [[learning/<%tp.date.now("YYYY-MM-DD")%> Обучение]]
+> > - [[0000/<%tp.date.now("YYYY-MM-DD")%> заметка]]
 
 
 # Dead line
