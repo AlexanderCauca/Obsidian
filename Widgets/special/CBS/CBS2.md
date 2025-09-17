@@ -1,6 +1,8 @@
 ```dataviewjs
 // ---------- Общий прогресс ----------
-const tasks = dv.current().file.tasks;
+let page = dv.page("CBS");  //
+let tasks = page.file.tasks;
+
 let total = tasks.length;
 let done = tasks.where(t => t.completed).length;
 let percent = total === 0 ? 0 : Math.round((done / total) * 100);
