@@ -33,11 +33,11 @@ banner_y: 0.46445
 > - ### 🎙️.NET base #mcl/list-card
 >   - ![Microphone icon](https://img.icons8.com/ios/452/microphone.png)
 >   - ![[CBS2]]
->   - [ ] B 1
+>   - [x] B 1 ✅ 2025-09-18
 >   - [ ] B 1 HomeWork
->   - [ ] B 2
+>   - [x] B 2 ✅ 2025-09-18
 >   - [ ] B 2 HomeWork
->   - [ ] B 3
+>   - [x] B 3 ✅ 2025-09-18
 >   - [ ] B 3 HomeWork
 >   - [ ] B 4
 >   - [ ] B 4 HomeWork
