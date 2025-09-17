@@ -11,10 +11,14 @@
             "id": "e46227e4624b332e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Fghtfhhgy.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Fghtfhhgy"
             }
           }
         ]
@@ -150,8 +154,9 @@
       "bases:Create new base": false
     }
   },
-  "active": "ea07f2a3d7d2aac8",
+  "active": "e46227e4624b332e",
   "lastOpenFiles": [
+    "Fghtfhhgy.md",
     "Widgets/Issue Tracker/example/Example Project/Issues - Example Project.md",
     "Widgets/examples/Image Gallery.md",
     "Widgets/Issue Tracker/IssueTracker/view.css",
@@ -189,7 +194,6 @@
     "Widgets/Issue Tracker/templates/note.issue-tracker.issue.md",
     "Productivity/Postit Notes/Work Todos.md",
     "Widgets/Past Due Tasks.md",
-    "Widgets/special/CBS/CBS1.md",
     "Productivity/Postit Board.canvas",
     "Widgets/Issue Tracker/IssueTracker/Issue/view.css",
     "Widgets/Issue Tracker/IssueTracker/Issue/view.js",
