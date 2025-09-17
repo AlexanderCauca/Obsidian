@@ -12,9 +12,9 @@ banner_y: 0.46445
 > - ### 🖥 С-sharp start #mcl/list-card
 >   - ![C# logo](https://cdn.iconscout.com/icon/free/png-256/free-csharp-1175240.png)
 >   - ![[CBS1]]
->   - [ ] S 1
->   - [ ] S 1 HomeWork
->   - [ ] S 2
+>   - [x] S 1 ✅ 2025-09-18
+>   - [x] S 1 HomeWork ✅ 2025-09-18
+>   - [x] S 2 ✅ 2025-09-18
 >   - [ ] S 2 HomeWork
 >   - [ ] S 3
 >   - [ ] S 3 HomeWork
