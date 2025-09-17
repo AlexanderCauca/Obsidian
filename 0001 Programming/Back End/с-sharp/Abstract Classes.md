@@ -1,4 +1,7 @@
 ---
+date: 2025-09-17
+week: 2025-38
+month: 2025-09
 tags:
   - cbs/base
   - programming/c-sharp/oop
