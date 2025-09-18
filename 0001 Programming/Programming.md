@@ -36,7 +36,8 @@ banner_lock: true
 > 	- ![[banner5.jpg]]
 > 	- [[CBS|CBS .NET]] 
 > 	- [[Udemy-SQL PostgreSQL]] 
-> 	- [[Udemy Web app ASPNET ]]
+> 	- [[Udemy Web app ASPNET + Angulat]]
+> 	- [[C# от новичка до проффи]]
 
 ![[Widgets/All time/Programming|Programming]]
 
