@@ -52,8 +52,8 @@ class button-monthly-note
 > 	- [[Anime Database]] 
 
 > [!blank]
-> - ### **В работе** #mcl/list-card
-> 	- ![[Da]]
+> - ### **Daed line** #mcl/list-card
+> 	- ![[𝘿𝙖𝙯𝙖𝙞3.jpg]]
 > 	- [[MainObsidian/0002 Project/Projects|Projects]]
 > 	- [[for fun]]
 > 	- [[ideas]]
