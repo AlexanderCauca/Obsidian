@@ -40,7 +40,7 @@ class button-monthly-note
 > 	- [[ideas]]
 > - ### **Учеба**
 > 	- ![[Wyatt Nero Vergara.jpg]]
-> 	- [[MainObsidian/0002 Project/Projects|Projects]]
+> 	- [[MainObsidian/0001 Programming/Programming|Programming]]
 > 	- [[English]]  
 > 	- [[Papers MOC|Liturature]] 
 > 
