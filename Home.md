@@ -55,19 +55,13 @@ class button-monthly-note
 > - ### Daed line #mcl/list-card
 > 	- ![[𝘿𝙖𝙯𝙖𝙞3.jpg]]
 > 	- [[Myaki Shop]]
-> 	- [[for fun]]
-> 	- [[ideas]]
 > 	
 > - ### Планы
 > 	- ![[Wyatt Nero Vergara.jpg]]
 > 	- [[2025]] 
-> 	- [[English]]  
-> 	- [[Papers MOC|Liturature]] 
 > 
 
 
-
-----
 ## Tasks
 
 > [!multi-column]
@@ -82,20 +76,21 @@ class button-monthly-note
 >
 >>[!warning|wide-2]+ Past Due Tasks
 >> ![[Past Due Tasks]]
+>
+>> [!note]+ Newly Added Papers
+>>![[Newly Added Papers#^1]]
 
 
 
 ![[Training]]
 
-![[courses M]]
+![[English]]
 
 ![[Papers Read Heatmap#^1]]
 
 >[!note]+ Newly Added Papers
 > ![[Newly Added Papers#^1]]
 
->>[!important]+ Important Items
->>  ![[Postit Board.canvas]]
 
 
 
@@ -103,13 +98,3 @@ class button-monthly-note
 
 <div style="margin-top: 0; padding-top: 0;"></div>
 
-<!------------------------------- UNCOMMENT  
-> [!multi-column]
-> 
->>[!todo]+ Next Weeks Todo List
->> ![[Next Weeks Tasks#^1]]
->
->>[!todo]+ Next Months Todo List
->> ![[Next Months Tasks#^1]]
-  --------------------------------------------->
-  ## Papers 

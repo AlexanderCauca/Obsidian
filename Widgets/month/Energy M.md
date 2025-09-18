@@ -1,68 +1,61 @@
 
 ```dataviewjs
-const startOfMonth = moment().startOf('month');
-const endOfMonth = moment().endOf('month');
+const startOfMonth = moment().startOf("month");
+const endOfMonth = moment().endOf("month");
 
-// Все дни месяца
-const allDays = [];
-let day = startOfMonth.clone();
-while (day.isSameOrBefore(endOfMonth, 'day')) {
-    allDays.push(day.format("YYYY-MM-DD")); // формат YYYY-MM-DD
-    day.add(1, 'day');
+// Все страницы за месяц
+const pages = dv.pages('"MainObsidian/_journal/2025/Daily Notes"')
+    .where(p => p.date && moment(p.date).isBetween(startOfMonth, endOfMonth, null, "[]"))
+    .sort(p => p.date, 'asc');
+
+// Преобразуем в словарь { "2025-09-18": { ...данные... } }
+const pageMap = {};
+for (let p of pages) {
+    const key = moment(p.date).format("YYYY-MM-DD");
+    pageMap[key] = p;
 }
 
-// Страницы за месяц
-const pageList = dv.pages('"MainObsidian/_journal/2025/Daily Notes"')
-    .where(p => p.date && moment(p.date, "YYYY-MM-DD").isBetween(startOfMonth, endOfMonth, 'day', '[]'))
-    .values;
+// Генерируем список дат за месяц
+const labels = [];
+const daysData = {};
+for (let d = startOfMonth.clone(); d.isSameOrBefore(endOfMonth); d.add(1, "day")) {
+    const key = d.format("YYYY-MM-DD");
+    labels.push(d.format("DD"));
 
-// Словарь по дате
-const pages = pageList.reduce((acc, p) => {
-    // нормализуем дату в такой же формат
-    const d = moment(p.date, ["YYYY-MM-DD", "YYYY/MM/DD", "YYYY.MM.DD"]).format("YYYY-MM-DD");
-    acc[d] = p;
-    return acc;
-}, {});
-
-// Метки = все дни месяца
-const labels = allDays;
-
-// Игнорируем служебные поля
-const excludeFields = [
-    'date', 'tags', 'cssclasses',
-    'banner', 'banner_x', 'banner_y',
-    'type', 'month'
-];
-
-// Берём числовые поля (строки тоже конвертим)
-const firstPage = pageList[0];
-const fields = firstPage
-    ? Object.keys(firstPage).filter(k => !excludeFields.includes(k))
-    : [];
-
-if (!fields.includes('morning_energy')) fields.push('morning_energy');
-if (!fields.includes('evening_energy')) fields.push('evening_energy');
-if (!fields.includes('health')) fields.push('health');
+    daysData[key] = {
+        morning_energy: pageMap[key]?.morning_energy ?? null,
+        evening_energy: pageMap[key]?.evening_energy ?? null,
+        health: pageMap[key]?.health ?? null
+    };
+}
 
 // Датасеты
-const datasets = fields.map((field, idx) => ({
-    label: field,
-    data: allDays.map(d => {
-        const val = pages[d]?.[field];
-        return val !== undefined ? Number(val) : null; // конвертируем в число
-    }),
-    backgroundColor: `hsla(${idx * 60}, 70%, 70%, 0.2)`,
-    borderColor: `hsla(${idx * 60}, 70%, 50%, 1)`,
-    borderWidth: 1,
-    tension: 0.3,
-    pointBackgroundColor: `hsla(${idx * 60}, 70%, 50%, 1)`,
-    pointRadius: 4,
-    pointHoverRadius: 6
-}));
+const datasets = [
+    {
+        label: "Morning Energy",
+        data: Object.values(daysData).map(v => v.morning_energy),
+        borderColor: "rgba(255, 99, 132, 1)",
+        backgroundColor: "rgba(255, 99, 132, 0.2)",
+        tension: 0.3
+    },
+    {
+        label: "Evening Energy",
+        data: Object.values(daysData).map(v => v.evening_energy),
+        borderColor: "rgba(54, 162, 235, 1)",
+        backgroundColor: "rgba(54, 162, 235, 0.2)",
+        tension: 0.3
+    },
+    {
+        label: "Health",
+        data: Object.values(daysData).map(v => v.health),
+        borderColor: "rgba(75, 192, 192, 1)",
+        backgroundColor: "rgba(75, 192, 192, 0.2)",
+        tension: 0.3
+    }
+];
 
-// Рендер
 const chartData = {
-    type: 'line',
+    type: "line",
     data: {
         labels: labels,
         datasets: datasets
@@ -71,4 +64,7 @@ const chartData = {
 
 window.renderChart(chartData, this.container);
 
+
 ```
+
+
