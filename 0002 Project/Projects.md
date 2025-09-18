@@ -10,7 +10,7 @@ cssclasses:
 ---
 
 > [!blank]
-> -  ### Персональные #mcl/list-card
+> -  ### Готовый #mcl/list-card
 > 	- ![[Soren Miles Loyola.jpg]]
 > 	- [[0002 Project/Projects|Projects]] - 
 > 	- [[0001 Programming/Programming|Programming]] — 
