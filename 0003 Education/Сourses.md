@@ -1,5 +1,5 @@
 ---
-banner: "![[bannerP3.jpg]]"
+banner: "![[bannerPaper.jpg]]"
 banner_x: 
 cssclasses:
   - wide-page
@@ -11,7 +11,7 @@ banner_lock: true
 
 > [!blank]
 > - ### В процессе (програмирование) #mcl/list-card
-> 	- ![[banner2.jpg]]
+> 	- ![[bannerPaper1.jpg]]
 > 	- [[CBS|CBS .NET]] 
 > 	- [[Udemy-SQL PostgreSQL]] 
 > 	- [[Udemy Web app ASPNET + Angulat]]
@@ -19,11 +19,13 @@ banner_lock: true
 > 	
 > 
 > - ### В процессе (софт системы)
-> 	- ![[bannerP.jpg]]
+> 	- ![[bannerPaper3.jpg]]
 > 	
 > 
 > - ### В процессе (английский)
-> 	- ![[bannerP.jpg]]
+> 	- ![[bannerPaper2.jpg]]
+> 	- [[English]] grammar + home
+> 	
 
 
 

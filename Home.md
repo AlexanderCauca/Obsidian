@@ -34,7 +34,7 @@ class button-monthly-note
 
 > [!blank]
 > - ### Проэкты #mcl/list-card
-> 	- ![[Soren Miles Loyola.jpg]]
+> 	- ![[reprogay.jpg]]
 > 	- [[MainObsidian/0002 Project/Projects|Projects]]
 > 	- [[for fun]]
 > 	- [[ideas]]
