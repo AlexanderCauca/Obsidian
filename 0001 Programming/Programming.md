@@ -34,7 +34,7 @@ banner_lock: true
 > 
 > - ### [[Сourses]]
 > 	- ![[banner5.jpg]]
-> 	- [[Movie Database]]  — 
+> 	- [[CBS|CBS]]  — 
 > 	- [[Anime Database]] 
 
 ![[Widgets/All time/Programming|Programming]]
