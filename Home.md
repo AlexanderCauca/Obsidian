@@ -41,7 +41,7 @@ class button-monthly-note
 > - ### **Учеба**
 > 	- ![[Wyatt Nero Vergara.jpg]]
 > 	- [[CBS|Programming]] - 
-> 	- [[Research]]  
+> 	- [[English]]  
 > 	- [[Papers MOC|Liturature]] 
 > 
 > - ### **Развличение**
