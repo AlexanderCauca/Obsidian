@@ -34,8 +34,8 @@ banner_lock: true
 > 
 > - ### [[Сourses]]
 > 	- ![[banner5.jpg]]
-> 	- [[CBS|CBS]]  — 
-> 	- [[Anime Database]] 
+> 	- [[CBS|CBS .NET]] 
+> 	- [[Udemy-SQL PostgreSQL]] 
 
 ![[Widgets/All time/Programming|Programming]]
 
