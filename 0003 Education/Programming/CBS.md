@@ -4,6 +4,7 @@ cssclasses:
   - wide-page
 banner: "![[gif(1).gif]]"
 banner_y: 0.46445
+excludeFromStats: true
 ---
 
 # <center>CBS</center> 
@@ -16,8 +17,8 @@ banner_y: 0.46445
 >   - [x] S 1 ✅ 2025-09-18
 >   - [x] S 1 HomeWork ✅ 2025-09-18
 >   - [x] S 2 ✅ 2025-09-18
->   - [ ] S 2 HomeWork
->   - [ ] S 3
+>   - [x] S 2 HomeWork ✅ 2025-09-18
+>   - [x] S 3 ✅ 2025-09-18
 >   - [ ] S 3 HomeWork
 >   - [ ] S 4
 >   - [ ] S 4 HomeWork

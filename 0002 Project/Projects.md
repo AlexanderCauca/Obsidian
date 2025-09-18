@@ -11,7 +11,7 @@ cssclasses:
 
 > [!blank]
 > -  ### Dead line #mcl/list-card
-> 	- ![[Soren Miles Loyola.jpg]]
+> 	- ![[reprogay.jpg]]
 > 
 > - ### Учеба
 > 	- ![[Wyatt Nero Vergara.jpg]]

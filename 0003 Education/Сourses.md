@@ -24,7 +24,7 @@ banner_lock: true
 > 
 > - ### В процессе (английский)
 > 	- ![[bannerPaper2.jpg]]
-> 	- [[English]] grammar + home
+> 	- [[MainObsidian/Widgets/All time/English|English]] grammar + home
 > 	
 
 

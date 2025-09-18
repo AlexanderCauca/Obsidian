@@ -10,34 +10,34 @@ banner_lock: true
 ![[Widgets/All time/Programming|Programming]]
 
 > [!blank]
-> - ### [[Back end]] #mcl/list-card
+> - ### Back end #mcl/list-card
 > 	- ![[banner2.jpg]]
-> 	- C#
+> 	- [[Back end ]] C#
 > 
 > - ### [[Front end]]
-> 	- ![[bannerP.jpg]]]
-> 	-Angular
+> 	- ![[bannerP.jpg]]
+> 	- [[Angular]]
 > 
 > - ### [[Data]]
 > 	- ![[bannerEd.jpg]]
-> 	- [[Movie Database]]  —
+> 	- [[SQL]]
 
 > [!blank]
-> - ### [[Project]] #mcl/list-card
+> - ### Project #mcl/list-card
 > 	- ![[banner7.jpg]]
-> 	- [[Personnal]]
-> 	- main
+> 	[[MainObsidian/0002 Project/Projects|Projects]] 
 > 
 > - ### [[Linux+soft]]
-> 	- ![|center](http://i.gzn.jp/img/2017/12/26/death-star-construction/00_m.jpg) 
-> 	- arch
+> 	- ![[Операционные системы с нуля; уровень 2 (старшая половина).gif]]
+> 	- [[Terminal]]
 > 
 > - ### [[Сourses]]
 > 	- ![[banner5.jpg]]
-> 	- [[CBS|CBS .NET]] 
+> 	- [[CBS|CBS .NET]]
+> 	- [[MainObsidian/Widgets/All time/English]]
+> 	- [[английский по плейлистам]]
 > 	- [[Udemy-SQL PostgreSQL]] 
 > 	- [[Udemy Web app ASPNET + Angulat]]
-> 	- [[C-sharp от новичка до проффи]]
 
 ![[Widgets/All time/Programming|Programming]]
 

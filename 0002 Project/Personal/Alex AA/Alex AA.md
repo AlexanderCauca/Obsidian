@@ -14,6 +14,7 @@ cssclasses:
   - wide-page
 banner: "![[AlexAAbanner.gif]]"
 banner_x: "0.5"
+excludeFromStats: true
 ---
 
 # Описание проекта 📝 

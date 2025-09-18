@@ -42,7 +42,7 @@ class button-monthly-note
 > - ### Учеба
 > 	- ![[Wyatt Nero Vergara.jpg]]
 > 	- [[MainObsidian/0001 Programming/Programming|Programming]]
-> 	- [[English]]  
+> 	- [[MainObsidian/Widgets/All time/English]]  
 > 	- [[Papers MOC|Liturature]] 
 > 
 > - ### Развличение
@@ -84,7 +84,7 @@ class button-monthly-note
 
 ![[Training]]
 
-![[English]]
+![[MainObsidian/Widgets/All time/English]]
 
 ![[Papers Read Heatmap#^1]]
 
