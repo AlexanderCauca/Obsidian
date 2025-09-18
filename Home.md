@@ -53,7 +53,7 @@ class button-monthly-note
 
 > [!blank]
 > - ### **В работе** #mcl/list-card
-> 	- ![[Soren Miles Loyola.jpg]]
+> 	- ![[Da]]
 > 	- [[MainObsidian/0002 Project/Projects|Projects]]
 > 	- [[for fun]]
 > 	- [[ideas]]
