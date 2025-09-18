@@ -37,7 +37,7 @@ class button-monthly-note
 > 	- ![[Soren Miles Loyola.jpg]]
 > 	- [[MainObsidian/0002 Project/Projects|Projects]]
 > 	- [[MainObsidian/0001 Programming/Programming|Programming]]
-> 	- [[Journal MOC|Journal]]
+> 	- [[ideas]]
 > - ### **Учеба**
 > 	- ![[Wyatt Nero Vergara.jpg]]
 > 	- [[CBS|Programming]] - 
