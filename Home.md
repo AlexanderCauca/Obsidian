@@ -47,7 +47,7 @@ class button-monthly-note
 > - ### **Развличение**
 > 	- ![[Enrico Vance Magno.jpg]]
 > 	- [[Movie Database]] 
-> 	- - [[Cards view|books]]  
+> 	- [[Cards view|books]]  
 > 	- [[Anime Database]] 
 
 > [!blank]
