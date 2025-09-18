@@ -1,55 +1,74 @@
 
 ```dataviewjs
-const startOfWeek = moment().startOf('month'); 
+const startOfMonth = moment().startOf('month');
+const endOfMonth = moment().endOf('month');
 
-const pages = dv
-	.pages('"_journal/2025/Daily Notes"')
-	.where(p => p.date && moment(p.date).isSameOrAfter(startOfWeek))
-	.sort(p => p.date, 'asc');
-
-if (!pages.length) {
-	dv.paragraph("Нет данных за текущуй месяц.");
-} else {
-	const labels = pages.map(p => p.file.name).values;
-
-	// Игнорируем служебные поля
-	const excludeFields = [
-		'date', 'tags', 'cssclasses',
-		'banner', 'banner_x', 'banner_y',
-		'type', 'month'
-	];
-
-	// Берём только нужные числовые поля
-	const fields = Object.keys(pages[0])
-		.filter(k => !excludeFields.includes(k) && typeof pages[0][k] === 'number');
-
-	// Добавляем, если нет
-	if (!fields.includes('morning_energy')) fields.push('morning_energy');
-	if (!fields.includes('evening_energy')) fields.push('evening_energy');
-	if (!fields.includes('health')) fields.push('health');
-
-	const datasets = fields.map((field, idx) => ({
-		label: field,
-		data: pages.map(p => p[field] ?? null).values,
-		backgroundColor: `hsla(${idx * 60}, 70%, 70%, 0.2)`,
-		borderColor: `hsla(${idx * 60}, 70%, 50%, 1)`,
-		borderWidth: 1,
-		tension: 0.3,
-		pointBackgroundColor: `hsla(${idx * 60}, 70%, 50%, 1)`,
-		pointRadius: 4,
-		pointHoverRadius: 6
-	}));
-
-	const chartData = {
-		type: 'line',
-		data: {
-			labels: labels,
-			datasets: datasets
-		}
-	};
-
-	window.renderChart(chartData, this.container);
+// Все дни месяца
+const allDays = [];
+let day = startOfMonth.clone();
+while (day.isSameOrBefore(endOfMonth, 'day')) {
+    allDays.push(day.format("YYYY-MM-DD")); // формат YYYY-MM-DD
+    day.add(1, 'day');
 }
 
+// Страницы за месяц
+const pageList = dv.pages('"MainObsidian/_journal/2025/Daily Notes"')
+    .where(p => p.date && moment(p.date, "YYYY-MM-DD").isBetween(startOfMonth, endOfMonth, 'day', '[]'))
+    .values;
+
+// Словарь по дате
+const pages = pageList.reduce((acc, p) => {
+    // нормализуем дату в такой же формат
+    const d = moment(p.date, ["YYYY-MM-DD", "YYYY/MM/DD", "YYYY.MM.DD"]).format("YYYY-MM-DD");
+    acc[d] = p;
+    return acc;
+}, {});
+
+// Метки = все дни месяца
+const labels = allDays;
+
+// Игнорируем служебные поля
+const excludeFields = [
+    'date', 'tags', 'cssclasses',
+    'banner', 'banner_x', 'banner_y',
+    'type', 'month'
+];
+
+// Берём числовые поля (строки тоже конвертим)
+const firstPage = pageList[0];
+const fields = firstPage
+    ? Object.keys(firstPage).filter(k => !excludeFields.includes(k))
+    : [];
+
+if (!fields.includes('morning_energy')) fields.push('morning_energy');
+if (!fields.includes('evening_energy')) fields.push('evening_energy');
+if (!fields.includes('health')) fields.push('health');
+
+// Датасеты
+const datasets = fields.map((field, idx) => ({
+    label: field,
+    data: allDays.map(d => {
+        const val = pages[d]?.[field];
+        return val !== undefined ? Number(val) : null; // конвертируем в число
+    }),
+    backgroundColor: `hsla(${idx * 60}, 70%, 70%, 0.2)`,
+    borderColor: `hsla(${idx * 60}, 70%, 50%, 1)`,
+    borderWidth: 1,
+    tension: 0.3,
+    pointBackgroundColor: `hsla(${idx * 60}, 70%, 50%, 1)`,
+    pointRadius: 4,
+    pointHoverRadius: 6
+}));
+
+// Рендер
+const chartData = {
+    type: 'line',
+    data: {
+        labels: labels,
+        datasets: datasets
+    }
+};
+
+window.renderChart(chartData, this.container);
 
 ```

@@ -12,37 +12,33 @@ cssclasses:
 > [!blank]
 > -  ### Dead line #mcl/list-card
 > 	- ![[Soren Miles Loyola.jpg]]
-> 	- [[0002 Project/Projects|Projects]] - 
-> 	- [[0001 Programming/Programming|Programming]] — 
-> 	- [[Journal MOC|Journal]] — 
 > 
-> - ### **Учеба**
-> 	- ![[Wyatt Nero Vergara.jpg]]) 
-> 	- [[Education]] - #education
-> 	- [[Research]]  — #research
-> 	- [[Papers MOC|Liturature]]  — #paper 
+> - ### Учеба
+> 	- ![[Wyatt Nero Vergara.jpg]]
 > 
-> - ### **Развличение**
-> 	- ![[Enrico Vance Magno.jpg]])
-> 	- [[Movie Database]]  
-
 ----
 
 # Personal Projects MOC
 
 ```dataviewjs
-const projects = dv.pages().where(p => p.tags && p.tags.includes("#ProjectMain") && p.type === "персональный");
+// Фильтрация проектов: выбираем только те, где есть тег #ProjectMain и тип = персональный
+const projects = dv.pages()
+    .where(p => p.tags && p.tags.includes("#ProjectMain") && p.type === "персональный");
 
+// Группировка по статусу проекта
 for (let group of projects.groupBy(p => p.status)) {
-    dv.header(3, group.key);
-    dv.table(["Проект", "Приоритет", "Тип", "Начало", "Дедлайн", "Теги"],
+    dv.header(3, group.key); // Заголовок — статус группы
+
+    // Таблица со списком проектов
+    dv.table(
+        ["📂 Проект", "🔥 Приоритет", "📌 Тип", "📅 Начало", "⏳ Дедлайн", "🏷 Теги"],
         group.rows.map(p => [
-            p.file.link,
-            p.priority,
-            p.FBF,
-            p.start,
-            p.deadline,
-            p.tags.filter(t => t !== "#ProjectMain").join(", ")
+            p.file.link,                                     // Ссылка на файл проекта
+            p.priority ?? "—",                              // Приоритет
+            p.FBF ?? "—",                                   // Тип (FBF у тебя)
+            p.start ?? "—",                                 // Дата начала
+            p.deadline ?? "—",                              // Дедлайн
+            (p.tags ?? []).filter(t => t !== "#ProjectMain").join(", ") // Остальные теги
         ])
     );
 }

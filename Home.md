@@ -60,7 +60,7 @@ class button-monthly-note
 > 	
 > - ### Планы
 > 	- ![[Wyatt Nero Vergara.jpg]]
-> 	- [[MainObsidian/0001 Programming/Programming|Programming]]
+> 	- [[2025]] 
 > 	- [[English]]  
 > 	- [[Papers MOC|Liturature]] 
 > 
