@@ -46,7 +46,9 @@ class button-monthly-note
 > 
 > - ### **Развличение**
 > 	- ![[Enrico Vance Magno.jpg]]
-> 	- [[Movie Database]]  —
+> 	- [[Movie Database]] 
+> 	- - [[Cards view|books]]  
+> 	- [[Anime Database]] 
 
 > [!blank]
 > - ### **Планы-задачи** #mcl/list-card
