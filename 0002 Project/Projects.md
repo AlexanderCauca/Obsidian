@@ -28,12 +28,6 @@ cssclasses:
 
 ----
 
----
-
-## Tasks
-
-![[Personal Projects MOC^1]]
-
 # Personal Projects MOC
 
 ```dataviewjs
