@@ -50,20 +50,6 @@ class button-monthly-note
 > 	- [[Cards view|books]]  
 > 	- [[Anime Database]] 
 
-> [!blank]
-> - ### **Планы-задачи** #mcl/list-card
-> 	- ![|center](https://e0.pxfuel.com/wallpapers/48/337/desktop-wallpaper-best-star-wars-death-star-interior-background.jpg)
-> 	- [[Life Goals]] — 
-> 
-> - ### **Linux+soft**
-> 	- ![|center](http://i.gzn.jp/img/2017/12/26/death-star-construction/00_m.jpg) 
-> 	- [[Theory]]  — #research
-> 	- [[Papers MOC|Liturature]]  — #paper 
-> 
-> - ### **Развличение**
-> 	- ![|center](https://images.mubicdn.net/images/film/116658/cache-96839-1445952162/image-w1280.jpg?size=800x)
-> 	- [[Cards view|books]]  
-> 	- [[Anime Database]] 
 
 ----
 ## Tasks
