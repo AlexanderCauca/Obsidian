@@ -40,7 +40,7 @@ class button-monthly-note
 > 	- [[Journal MOC|Journal]]
 > - ### **Учеба**
 > 	- ![[Wyatt Nero Vergara.jpg]]
-> 	- [[CBS]] - 
+> 	- [[CBS|Programming]] - 
 > 	- [[Research]]  — #research
 > 	- [[Papers MOC|Liturature]]  — #paper 
 > 
