@@ -85,7 +85,7 @@ class button-monthly-note
 
 ![[Training]]
 
-![[Learning Tracker]]
+![[courses M]]
 
 ![[Papers Read Heatmap#^1]]
 
