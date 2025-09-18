@@ -60,7 +60,7 @@ class button-monthly-note
 > 
 > - ### **Развличение**
 > 	- ![|center](https://images.mubicdn.net/images/film/116658/cache-96839-1445952162/image-w1280.jpg?size=800x)
-> 	- [[Movie Database]]  
+> 	- [[ boo]]  
 > 	- [[Anime Database]] 
 
 ----
