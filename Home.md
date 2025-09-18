@@ -64,11 +64,7 @@ class button-monthly-note
 > 	- [[English]]  
 > 	- [[Papers MOC|Liturature]] 
 > 
-> - ### **Развличение**
-> 	- ![[Enrico Vance Magno.jpg]]
-> 	- [[Movie Database]] 
-> 	- [[Cards view|books]]  
-> 	- [[Anime Database]] 
+
 
 
 ----
