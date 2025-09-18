@@ -51,6 +51,25 @@ class button-monthly-note
 > 	- [[Cards view|books]]  
 > 	- [[Anime Database]] 
 
+> [!blank]
+> - ### **В работе** #mcl/list-card
+> 	- ![[Soren Miles Loyola.jpg]]
+> 	- [[MainObsidian/0002 Project/Projects|Projects]]
+> 	- [[for fun]]
+> 	- [[ideas]]
+> 	
+> - ### **Планы**
+> 	- ![[Wyatt Nero Vergara.jpg]]
+> 	- [[MainObsidian/0001 Programming/Programming|Programming]]
+> 	- [[English]]  
+> 	- [[Papers MOC|Liturature]] 
+> 
+> - ### **Развличение**
+> 	- ![[Enrico Vance Magno.jpg]]
+> 	- [[Movie Database]] 
+> 	- [[Cards view|books]]  
+> 	- [[Anime Database]] 
+
 
 ----
 ## Tasks
