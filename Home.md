@@ -54,7 +54,7 @@ class button-monthly-note
 > [!blank]
 > - ### **Daed line** #mcl/list-card
 > 	- ![[𝘿𝙖𝙯𝙖𝙞3.jpg]]
-> 	- [[MainObsidian/0002 Project/Projects|Projects]]
+> 	- [[Myaki Shop]]
 > 	- [[for fun]]
 > 	- [[ideas]]
 > 	
