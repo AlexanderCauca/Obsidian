@@ -12,7 +12,7 @@ banner_y: 0.46445
 > - ### 🖥 С-sharp start #mcl/list-card
 >   - ![C# logo](https://cdn.iconscout.com/icon/free/png-256/free-csharp-1175240.png)
 >   - ![[CBS1]]
->   - 
+>   - - -
 >   - [x] S 1 ✅ 2025-09-18
 >   - [x] S 1 HomeWork ✅ 2025-09-18
 >   - [x] S 2 ✅ 2025-09-18
@@ -34,7 +34,7 @@ banner_y: 0.46445
 > - ### 🎙️.NET base #mcl/list-card
 >   - ![Microphone icon](https://img.icons8.com/ios/452/microphone.png)
 >   - ![[CBS2]]
->   - 
+>   - --
 >   - [x] B 1 ✅ 2025-09-18
 >   - [ ] B 1 HomeWork
 >   - [x] B 2 ✅ 2025-09-18
@@ -74,7 +74,7 @@ banner_y: 0.46445
 > - ### 🤖  .NET  #mcl/list-card
 >   - ![Robot icon](https://img.icons8.com/ios/452/artificial-intelligence.png)
 >   - ![[CBS3]]
->   - 
+>   - --
 >     - [ ] P 1
 >     - [ ] P 1 HomeWork
 >     - [ ] P 2
