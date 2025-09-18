@@ -14,6 +14,7 @@ cssclasses:
 banner: "![[background1.jpg]]"
 FBF: Front_WP
 banner_y: 0.332
+excludeFromStats: true
 ---
 
 # project
