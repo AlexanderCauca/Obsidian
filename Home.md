@@ -41,8 +41,8 @@ class button-monthly-note
 > - ### **Учеба**
 > 	- ![[Wyatt Nero Vergara.jpg]]
 > 	- [[CBS|Programming]] - 
-> 	- [[Research]]  — #research
-> 	- [[Papers MOC|Liturature]]  — #paper 
+> 	- [[Research]]  
+> 	- [[Papers MOC|Liturature]] 
 > 
 > - ### **Развличение**
 > 	- ![[Enrico Vance Magno.jpg]]
